@@ -1,0 +1,165 @@
+@font-face { font-family: 'Cafe24Ohsquare';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff')
+  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  background-color: #E0E0E0;
+}
+a{
+  font-family: Cafe24Ohsquare;
+    text-decoration: none;
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color:#e0e0e0;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow: -3px 0 #e0e0e0, 0 3px #e0e0e0, 3px 0 #e0e0e0, 0 -3px #e0e0e0;
+    color: #424242;
+}
+
+#menu{
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color: #E0E0E0;
+    font-size: 70px;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#menu:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: none;
+    color: #424242;
+    font-size: 70px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+#home{
+    padding: 60px;
+}
+
+#info{
+  color: #424242;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#who {
+  font-family: Cafe24Ohsquare;
+  width: 100%;  
+  height: 330px;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  height: 100px;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 1.2s ease infinite alternate;
+  font-size: 120px;
+  color: #424242;
+  text-shadow: 0 1px 0 #424242,
+               0 2px 0 #424242,
+               0 3px 0 #424242,
+               0 4px 0 #424242,
+               0 5px 0 #424242,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+h1 span:nth-child(2) { animation-delay: .1s; }
+h1 span:nth-child(3) { animation-delay: .2s; }
+h1 span:nth-child(4) { animation-delay: .3s; }
+h1 span:nth-child(5) { animation-delay: .4s; }
+h1 span:nth-child(6) { animation-delay: .5s; }
+h1 span:nth-child(7) { animation-delay: .6s; }
+h1 span:nth-child(8) { animation-delay: .7s; }
+h1 span:nth-child(9) { animation-delay: .8s; }
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+
+
+#profile{
+  font-family: Cafe24Ohsquare;
+  text-align: center;
+}
+
+#profile p{
+  width: 700px;
+  padding-left: 300px;
+  font-size: 35px;
+  text-align: left;
+  position: relative;
+  top: -600px;
+  left: 600px;
+}
+
+#profile p#name {
+  font-size: 80px;
+  color: #e0e0e0;
+  text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+}
+
+#profile p#name2 {
+  font-size: 40px;
+  color: #e0e0e0;
+  position: relative;
+  top: -750px;
+  left: 850px;
+  text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+}
+
+#profile img {
+  padding-right: 450px;
+}
+
+.prize {
+  text-align: center;
+}
+
+.prize p {
+  font-family: Cafe24Ohsquare;
+  font-size: 35px;
+}
+
+.prize p#year {
+
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.prize p#title{
+  font-size: 100px;
+  color: #e0e0e0;
+  text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+}

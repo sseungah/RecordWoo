@@ -1,0 +1,49 @@
+@font-face { font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html{
+    background-color: #9f9f9f;
+}
+a{
+    font-family: Cafe24Ohsquare;
+    text-decoration: none;
+    color: #424242;
+}
+#menu{
+    font-weight: bold;
+    text-shadow: none;
+    color: #424242;
+    font-size: 70px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#menubu{
+    text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+    color: #9f9f9f;
+    font-size: 100px;
+}
+#bu:hover {
+    width:350px;height:150px;
+    cursor: pointer;
+    font-weight: regular;
+    text-shadow: none;
+    color: #ffffff;
+    font-size: 100px;
+  }
+.menustyle{
+    padding:150px;
+    line-height: 150px;
+}
+body{
+    width:1910px;
+    height:950px;
+    background-image:url(logo2.png);
+    background-repeat:no-repeat;
+    background-position : center;
+    background-size:700px 700px;
+}

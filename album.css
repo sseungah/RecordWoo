@@ -1,0 +1,79 @@
+@font-face { font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html{
+    background-color: #E0E0E0;
+}
+a{
+    font-family: Cafe24Ohsquare;
+    text-decoration: none;
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color:#e0e0e0;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow: -3px 0 #e0e0e0, 0 3px #e0e0e0, 3px 0 #e0e0e0, 0 -3px #e0e0e0;
+    color: #424242;
+}
+#menu{
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color: #E0E0E0;
+    font-size: 70px;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#menu:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: none;
+    color: #424242;
+    font-size: 70px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+#home{
+    padding: 60px;
+}
+#gu{
+    font-family: Cafe24Ohsquare;
+    position: relative;
+    left: 200px;
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+}
+.one{
+    position: relative;
+    left: 106px;
+}
+.two{
+    position: relative;
+    left: 212px;
+}
+.three{
+    position: relative;
+    left: 318px;
+}
+#pal{
+    font-family: Cafe24Ohsquare;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-weight: bold;
+}
+#sev{
+    font-family: Cafe24Ohsquare;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}

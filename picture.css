@@ -1,0 +1,39 @@
+@font-face{
+    font-family:"noto sans CJK KR";
+    src:url("./NotoSansCJKkr-hinted/NotoSansCJKkr-Medium.otf");
+}
+html{
+    background-color: #E0E0E0;
+}
+a{
+    text-decoration: none;
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color:#e0e0e0;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow: -3px 0 #e0e0e0, 0 3px #e0e0e0, 3px 0 #e0e0e0, 0 -3px #e0e0e0;
+    color: #424242;
+}
+#menu{
+    text-shadow: -3px 0 #424242, 0 3px #424242, 3px 0 #424242, 0 -3px #424242;
+    color: #E0E0E0;
+    font-size: 70px;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#menu:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: none;
+    color: #424242;
+    font-size: 70px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+#home{
+    padding: 60px;
+}
